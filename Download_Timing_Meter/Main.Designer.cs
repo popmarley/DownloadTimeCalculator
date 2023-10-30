@@ -90,7 +90,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(324, 258);
+			this.ClientSize = new System.Drawing.Size(376, 258);
 			this.Controls.Add(this.btnHesapla);
 			this.Controls.Add(this.txtDosyaBoyutu);
 			this.Controls.Add(this.lblSonuç);
@@ -98,6 +98,7 @@
 			this.Controls.Add(this.txtHız);
 			this.Controls.Add(this.label1);
 			this.Name = "Main";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "İndirme Zaman Ölçer";
 			this.ResumeLayout(false);
 			this.PerformLayout();
